@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package voyis.data;
+
+message Image {
+    int32 width = 1;
+    int32 height = 2;
+    int32 channels = 3;
+    int32 type = 4;        
+    bytes data = 5;        
+    string filename = 6;   
+}
+
+message KeyPoint {
+    float x = 1;
+    float y = 2;
+    float size = 3;
+    float angle = 4;
+    float response = 5;
+    int32 octave = 6;
+    int32 class_id = 7;
+}
+
+message FeaturePayload {
+    Image original_image = 1;      
+    repeated KeyPoint keypoints = 2; 
+}
