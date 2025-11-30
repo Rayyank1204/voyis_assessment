@@ -33,6 +33,7 @@ Here is my submission for the Distributed Imaging Services assessment. As requir
 * SQLite3 (Database).
 
   ```
+  sudo apt install sqlite3
   sudo apt-get install libsqlite3-dev
   ```
 
@@ -63,7 +64,7 @@ To run the system manually, open three separate terminal windows and run one of 
 * Image Generator:
 
    ```
-   cd build
+   cd build # if not already in build
    ./app1 ../images
    ```
 
