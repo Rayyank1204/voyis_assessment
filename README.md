@@ -44,7 +44,7 @@ Here is my submission for the Distributed Imaging Services assessment. As requir
  * Clone the repository.
 
    ```
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Rayyank1204/voyis_assessment.git
    ```
 
 * Create a build directory inside the repository, and compile.
